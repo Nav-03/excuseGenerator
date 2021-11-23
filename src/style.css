@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* VH Conversion Function */
+
+.wrap {
+  height: 100vh - calcVh(navHeight);
+  width: 100vw;
+}
+
+header,
+footer {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
